@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travelville</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="travel.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Travelville</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#search">Search</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#popular-places">Popular Places</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div  id="home" class="hero-section">
+    <div class="carousel-bg">
+      <!-- Empty div for background carousel -->
+    </div>
+    <div class="carousel-content">
+      <h1>We Work With All Budgets</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, placeat.</p>
+      <a href="#" class="btn btn-success btn-lg"style="background-color:#008576">Learn More</a>
+    </div>
+  </div>
+  
+
+  <!-- Search Bar -->
+  <div id="search" class="search-bar">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Search Destinations</h1>
+          <form>
+            <div class="input-group">
+              <input type="search" class="form-control form-control-lg" placeholder="Search Destinations">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Features Section -->
+  <div class="container feature-section">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="card feature-card">
+          <div class="card-content">
+            <i class="fa fa-map-marker-alt"></i>
+            <h5>Pick Where</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, aspernatur.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card feature-card">
+          <div class="card-content">
+            <i class="fa fa-store"></i>
+            <h5>Travel Shop</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, aspernatur.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card feature-card">
+          <div class="card-content">
+            <i class="fa fa-plane"></i>
+            <h5>Fly Cheap</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, aspernatur.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container popular-places">
+      <h2 style="text-align: center; padding: 40px "><span style="color: #008576">Popular</span> Places</h2>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4">
+          <div class="card card-equal-height">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.KR9z8YjCVldB8aZlJwSpKAHaEf&pid=Api&P=0&h=180" alt="Cancun" class="card-img-top" style="height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title">Cancun</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-equal-height">
+            <img src="https://www.honeymoondreams.co.uk/wp-content/uploads/2012/07/48-Grotto-Pool1.jpg" alt="Merino" class="card-img-top" style="height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title">Bahamas</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-equal-height">
+            <img src="https://c1.staticflickr.com/3/2526/3996683276_53bc140bd8_b.jpg" alt="Nova Scotia" class="card-img-top" style="height: 250px;">
+            <div class="card-body">
+              <h5 class="card-title">Hawaii</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="text-align: center;padding-bottom:50px"><button style="font-size:xx-large;" type="button" class="btn btn-dark btn-sml"><i class="small material-icons" style="fill: white;">send</i>Contact For Booking</button></div>
+
+  <!-- Follow Us Section -->
+  <div id="popular-places" class="container-fluid follow-us">
+    <div class="container">
+      <h2 style="padding-bottom:10px">Follow Travelville</h2>
+      <p>Follow u son social media for special offers</p>
+      <div class="social-icons" style="padding-top:10px">
+      <a href="#" class="mx-2"><i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff;"></i></a>
+      <a href="#" class="mx-2"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a>
+      <a href="#" class="mx-2"><i class="fa-brands fa-twitter fa-2xl" style="color: #ffffff;"></i></a>
+      <a href="#" class="mx-2"><i class="fa-brands fa-google fa-2xl" style="color: #ffffff;"></i></a>
+      <a href="#" class="mx-2"><i class="fa-brands fa-pinterest fa-2xl" style="color: #ffffff;"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gallery Section -->
+  <div class="container gallery" id="gallery" style="padding-bottom: 30px;">
+    <h2 style="text-align: center;padding-bottom:17px; padding: 40px" ><span style="color:#008576">Photo</span>Gallery</h2>
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.8l1gus1KfLI6bSSFKrmpkQHaE8&pid=Api&P=0&h=180" alt="Image 1" class="img-fluid">
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <img src="https://www.visitdubai.com/-/media/gathercontent/article/t/top-things-to-do-in-dubai/fallback-image/top-things-to-do-in-dubai-bridge-canal-header.jpg" alt="Image 2" class="img-fluid">
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <img src="https://image.cnbcfm.com/api/v1/image/106016751-1562954520333gettyimages-908178810.jpeg?v=1644429267" alt="Image 3" class="img-fluid">
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <img src="https://tse3.mm.bing.net/th?id=OIP.dhT9c-ceiflu1b5Zfia-dwHaEK&pid=Api&P=0&h=180" alt="Image 4" class="img-fluid">
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <img src="https://img.rezdy.com/PRODUCT_IMAGE/2198/12-apostles-with-dramatic-lighting-1024x768_lg.jpg" alt="Image 5" class="img-fluid">
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.SRcPhKeQLNiXuE4hcAixsgAAAA&pid=Api&P=0&h=180" alt="Image 6" class="img-fluid">
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <img src="https://www.passeios.org/wp-content/uploads/2022/09/Amazon-Parques-e-Resorts.png" alt="Image 7" class="img-fluid">
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+      <img src="https://travel.home.sndimg.com/content/dam/images/travel/fullset/2012/02/28/1a/eco-friendly-luxury-resorts.rend.hgtvcom.1280.960.suffix/1491583328038.jpeg" alt="Image 7" class="img-fluid">
+    </div>
+  </div>
+
+  <div id="contact" class="container text-center" style="padding: 40px">
+    <div class="row row-cols-2" >
+      <div class="col1" style="background-color: #008576;color:white; height:25vh;" > 
+        <i class= "fa-regular fa-envelope fa-2xl" style="color: #ffffff;padding-top:20px; "></i>
+        <h2 style="padding-top:20px;">Contact Us For Booking</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, officia nesciunt ex deleniti neque sed nobis quam asperiores hic, obcaecati unde vitae at repudiandae enim sunt voluptatem, in porro blanditiis!</p>
+        <div class="col3" style="height: 30vh;margin-top:60px ; padding-right: 50px"  >
+          <div class="card1">
+            <div class="card-header location">
+              <h1 style="text-align: left;color:black">Location</h1>
+            
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"style="text-align: left;">Traville Travel Agency</li>
+              <li class="list-group-item"style="text-align: left;">555 Beach rd , Suite 333</li>
+              <li class="list-group-item"style="text-align: left;">Miami FL,55555</li>
+            </ul>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col2" style="background-color:rgb(240, 240, 240); color:black ; " >
+        <h2 style="text-align: left;">Please fill out this form</h2>
+        <form>
+          <div class="mb-3" style="text-align: left;">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div>
+          <div class="mb-3" style="text-align: left;">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div>
+          <div class="mb-3" style="text-align: left;">
+            <label for="phone" class="form-label">Phone number</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+          </div>
+          <div class="mb-3" style="text-align: left;">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-success" style="background-color: #008576;color:#ffffff;  ">Submit</button>
+        </form>
+
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+  <script>
+    
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="travel.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const images = [
+        'https://theincidentaltourist.com/wp-content/uploads/2017/09/plage_lagon119_ermitage_coucher_de_soleil_-_CREDIT_IRT_-_gabriel_barathieu_dts_06_2018-1.jpg',
+        'https://www.travelplusstyle.com/wp-content/uploads/2015/11/laamu_water_villa_with_pool_5962-original-1.jpg',
+        'https://s-media-cache-ak0.pinimg.com/originals/f2/9e/53/f29e53072371e4d00a29d87aea84506b.jpg'
+        // Add more image URLs as needed
+      ];
+    
+      let currentImageIndex = 0;
+      const carouselBg = document.querySelector('.hero-section .carousel-bg');
+      const fadeDuration = 1000; // 1 second
+    
+      function crossfade() {
+        const nextImageIndex = (currentImageIndex + 1) % images.length;
+        const img1 = new Image();
+        const img2 = new Image();
+        
+        img1.src = images[currentImageIndex];
+        img2.src = images[nextImageIndex];
+        img1.onload = function() {
+          carouselBg.style.backgroundImage = `url('${img1.src}')`;
+          carouselBg.style.opacity = '1';
+          setTimeout(function() {
+            carouselBg.style.transition = `opacity ${fadeDuration / 1000}s ease-out`;
+            carouselBg.style.opacity = '0';
+            setTimeout(function() {
+              carouselBg.style.backgroundImage = `url('${img2.src}')`;
+              carouselBg.style.opacity = '1';
+              currentImageIndex = nextImageIndex;
+            }, fadeDuration);
+          }, ); // Delay before starting fade-out
+        };
+      }
+    
+      // Initial start
+      crossfade();
+    
+      // Set interval to change image every 5 seconds
+      setInterval(crossfade, 5000); // Change image every 5 seconds
+    });
+      
+  </script>
+  
+
+
+  
+  <script>
+    // Smooth scrolling to anchor links
+    document.addEventListener("DOMContentLoaded", function() {
+      const navLinks = document.querySelectorAll('.navbar-nav a.nav-link');
+
+      navLinks.forEach(function(navLink) {
+        navLink.addEventListener('click', function(event) {
+          event.preventDefault();
+          const targetId = this.getAttribute('href').substring(1);
+          const targetElement = document.getElementById(targetId);
+          if (targetElement) {
+            targetElement.scrollIntoView({
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+    });
+  </script>
+    <!-- Footer Section -->
+    <footer class="container-fluid follow-us" style="height: 10.3vh;">
+      <div class="container">
+        <div class="row mt-3">
+          <div class="col-md-12 text-center">
+            <p>Travelville &copy; 2018</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  </html>
+  
+  
+</body>
+</html>
+
